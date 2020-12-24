@@ -4,7 +4,7 @@
 library(ggplot2)
 library(dplyr)
 
-load("countypop.RData")
+ load("countypop.RData")
 
 ggplot( countypop, aes( x= abbr, y = pop_2015 )  )+
   geom_boxplot()
